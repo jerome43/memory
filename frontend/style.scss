@@ -1,0 +1,50 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+$secondary-color : white;
+$background-secondary-color : dodgerblue;
+$border-color : rgb(163,163,163);
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+  margin: 2rem;
+}
+
+h1 {
+  padding: 1rem;
+  background-color: $background-secondary-color;
+  color: $secondary-color;
+}
+
+#main-container {
+  width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+#memory {
+  display: table;
+  margin-top: 2rem;
+  box-shadow : 7px 8px 10px 0 $border-color
+}
+
+.card-container {
+  border: 1px solid $border-color;
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+.card {
+  opacity: 0;
+}
+
+.last-card-container-row {
+  clear: left;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
